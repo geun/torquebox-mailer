@@ -13,6 +13,6 @@ module TorqueBox
       initializer 'torquebox-mailer' do
         TorqueBox::Mailer.hook_rails!
       end
-    end if defined?(::Rails)
+    end
   end
 end
