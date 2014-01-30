@@ -1,8 +1,10 @@
+# -*- encoding: utf-8 -*-
 module TorqueBox
   module Mailer
     module Extensions
+      # A lightweight and generic proxy class that is easily serializable
       class Proxy < BasicObject
-        def initialize(performable, target, options={})
+        def initialize(performable, target, options = {})
           @performable = performable
           @target = target
           @opts = options

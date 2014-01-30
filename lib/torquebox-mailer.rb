@@ -1,1 +1,2 @@
-require "torquebox/mailer"
+# -*- encoding: utf-8 -*-
+require 'torquebox/mailer'
