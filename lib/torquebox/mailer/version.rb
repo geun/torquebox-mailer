@@ -2,6 +2,6 @@
 module Torquebox
   # Main module for TorqueBox::Mailer
   module Mailer
-    VERSION = '0.0.1'
+    VERSION = '1.0.0'
   end
 end
