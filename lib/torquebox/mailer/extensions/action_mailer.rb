@@ -18,7 +18,7 @@ module TorqueBox
 
       # Extension module for ActionMailer that holds the public API
       module ActionMailer
-        def delay(options = {})
+        def backgroundable(options = {})
           Proxy.new(DelayedMailer, self, options)
         end
       end

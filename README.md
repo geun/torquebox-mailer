@@ -18,10 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-Use `delay` to deliver your emails asynchronously.
+Use `backgroundable` to deliver your emails asynchronously.
 
 ```ruby
-UserMailer.delay.welcome_email(@user.to_param)
+UserMailer.backgroundable.welcome_email(@user.to_param)
 ```
 
 ## Contributing
